@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #14141a;
+}
+
+.container{
+    width: 20rem;
+    margin: 2rem auto;
+    background-color: #1e1e24;
+    box-shadow: 0px 0px 20px #000000;
+    height: 90vh;
+    border-radius: 10px;
+}
+
+#result{
+	height: 10rem;
+    padding: .5em;
+}
+#history{
+	text-align: right;
+	height: 40%;
+	width: 90%;
+    margin: .6em auto;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 50%;
+	width: 90%;
+    margin: .2em auto;
+	font-size: 30px;
+    color: #919191;
+}
+
+#keys{
+    height: 25em;
+    margin: 3em auto;
+}
+
+.operator, .number{
+	width: 3.5em;
+	height: 3.5em;
+	margin: 10px;
+	float: left;
+    border: none;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 1em;
+    box-shadow: .2em .3em  #000000;
+    background-color: #197c42;
+}
+
+.equals{
+    height: 8em;
+    border-radius: 50px;
+    float: right;
+    margin: 18px;
+}
+.operator:active, .number:active{
+	background-color: #464628;
+}
+
+button:nth-child(2),
+button:nth-child(3),
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12)
+{
+    background-color: #003716;
+}
+
+button:nth-child(1),
+button:nth-child(16){
+    background-color: #464628;
+}
