@@ -54,7 +54,7 @@ body{
 	font-weight: bold;
 	font-size: 1em;
     box-shadow: .2em .3em  #000000;
-    background-color: #a38086 ;
+    background-color: #a5a5a5 ;
 }
 
 .equals{
@@ -64,7 +64,7 @@ body{
     margin: 18px;
 }
 .operator:active, .number:active{
-	background-color: #ff002b;
+	background-color: #222;
 }
 
 .operator:focus, .number:focus{
@@ -82,5 +82,5 @@ button:nth-child(12)
 
 button:nth-child(1),
 button:nth-child(16){
-    background-color: #dddddd;
+    background-color: #595959;
 }
