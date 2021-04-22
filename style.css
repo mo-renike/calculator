@@ -57,7 +57,7 @@ body{
     background-color: #a5a5a5 ;
 }
 .operator:hover, .number:hover{
-    background-color: #17171d;
+    background-color: #00ffba;
     cursor: pointer;
 }
 .equals{
